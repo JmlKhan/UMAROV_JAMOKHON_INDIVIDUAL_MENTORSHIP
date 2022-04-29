@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jumarov\\source\\repos\\training\\task3\\task3\\ConsoleApp.csproj",
-      "projectName": "ConsoleApp",
-      "projectPath": "C:\\Users\\jumarov\\source\\repos\\training\\task3\\task3\\ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\jumarov\\source\\repos\\training\\task3\\BL\\BL.csproj",
+      "projectName": "BL",
+      "projectPath": "C:\\Users\\jumarov\\source\\repos\\training\\task3\\BL\\BL.csproj",
       "packagesPath": "C:\\Users\\jumarov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jumarov\\source\\repos\\training\\task3\\task3\\obj\\",
+      "outputPath": "C:\\Users\\jumarov\\source\\repos\\training\\task3\\BL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jumarov\\AppData\\Roaming\\NuGet\\NuGet.Config",

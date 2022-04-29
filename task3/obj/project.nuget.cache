@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F4k7+TOXS6yy4Qm4ZsbD6T9kMzSI9y4FqFEXB6Vo6HPgkkAF+mxUnARxjHQm/xD4Cn+xj7bbpOYRvnhUgoMw2g==",
+  "dgSpecHash": "g1cQbS9MTXKsMk2ajXFSIHlnkN+LRvtV25e6QPs6u+99DAa77d33n/V7bmbmbDOJsV37xxeGiaEcWS7ZEtTgTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jumarov\\source\\repos\\training\\task3\\task3\\task3.csproj",
+  "projectFilePath": "C:\\Users\\jumarov\\source\\repos\\training\\task3\\task3\\ConsoleApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
