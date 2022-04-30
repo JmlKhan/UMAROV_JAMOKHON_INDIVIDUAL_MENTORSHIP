@@ -11,6 +11,19 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
       "DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -54,6 +67,11 @@
         "packageIcon.png"
       ]
     },
+    "BL/1.0.0": {
+      "type": "project",
+      "path": "../BL/BL.csproj",
+      "msbuildProject": "../BL/BL.csproj"
+    },
     "DAL/1.0.0": {
       "type": "project",
       "path": "../DAL/DAL.csproj",
@@ -62,7 +80,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "DAL >= 1.0.0"
+      "BL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -92,8 +110,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\jumarov\\source\\repos\\training\\task3\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\jumarov\\source\\repos\\training\\task3\\DAL\\DAL.csproj"
+            "C:\\Users\\jumarov\\source\\repos\\training\\task3\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\jumarov\\source\\repos\\training\\task3\\BL\\BL.csproj"
             }
           }
         }

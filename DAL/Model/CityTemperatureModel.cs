@@ -6,20 +6,10 @@ using System.Threading.Tasks;
 
 namespace DAL.Model
 {
-    public class CityTemperatureModel
+    public partial class CityTemperatureModel
     {
-        public List<weather> list { get; set; }
-       
-        public class weather
-        {
-            public Main main { get; set; }
-        }
-
-        public class Main
-        {
-            public double temp { get; set; }
-        
-        }
+        public List<Weather>? list { get; set; }
+        public int ? cod { get; set; }
 
         
     }

@@ -4,6 +4,64 @@
     "C:\\Users\\jumarov\\source\\repos\\training\\task3\\task3\\ConsoleApp.csproj": {}
   },
   "projects": {
+    "C:\\Users\\jumarov\\source\\repos\\training\\task3\\BL\\BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jumarov\\source\\repos\\training\\task3\\BL\\BL.csproj",
+        "projectName": "BL",
+        "projectPath": "C:\\Users\\jumarov\\source\\repos\\training\\task3\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\jumarov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jumarov\\source\\repos\\training\\task3\\BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jumarov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jumarov\\source\\repos\\training\\task3\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\jumarov\\source\\repos\\training\\task3\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\jumarov\\source\\repos\\training\\task3\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -88,8 +146,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jumarov\\source\\repos\\training\\task3\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\jumarov\\source\\repos\\training\\task3\\DAL\\DAL.csproj"
+              "C:\\Users\\jumarov\\source\\repos\\training\\task3\\BL\\BL.csproj": {
+                "projectPath": "C:\\Users\\jumarov\\source\\repos\\training\\task3\\BL\\BL.csproj"
               }
             }
           }

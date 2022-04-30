@@ -17,3 +17,5 @@ C:\Users\jumarov\source\repos\training\task3\task3\obj\Debug\net6.0\ConsoleApp.p
 C:\Users\jumarov\source\repos\training\task3\task3\obj\Debug\net6.0\ConsoleApp.genruntimeconfig.cache
 C:\Users\jumarov\source\repos\training\task3\task3\obj\Debug\net6.0\ref\ConsoleApp.dll
 C:\Users\jumarov\source\repos\training\task3\task3\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\jumarov\source\repos\training\task3\task3\bin\Debug\net6.0\BL.dll
+C:\Users\jumarov\source\repos\training\task3\task3\bin\Debug\net6.0\BL.pdb

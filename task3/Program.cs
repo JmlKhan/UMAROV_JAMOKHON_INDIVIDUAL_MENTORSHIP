@@ -1,9 +1,9 @@
-﻿using DAL;
+﻿using BL.Services;
 
-//var newApi = new Api();
+string cityName;
 
-//var result = newApi.GetResult();
-//result.Wait();
-var obj = new WeatherApi();
-var result = obj.GetWeather();
-Console.WriteLine(result);
+Console.WriteLine("Enter city name: \n");
+cityName = Console.ReadLine();
+
+var result = new Print();
+result.Response(cityName);

@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "ConsoleApp/1.0.0": {
+      "BL/1.0.0": {
         "dependencies": {
-          "BL": "1.0.0"
+          "DAL": "1.0.0"
         },
         "runtime": {
-          "ConsoleApp.dll": {}
+          "BL.dll": {}
         }
       },
       "Newtonsoft.Json/13.0.1": {
@@ -20,14 +20,6 @@
             "assemblyVersion": "13.0.0.0",
             "fileVersion": "13.0.1.25517"
           }
-        }
-      },
-      "BL/1.0.0": {
-        "dependencies": {
-          "DAL": "1.0.0"
-        },
-        "runtime": {
-          "BL.dll": {}
         }
       },
       "DAL/1.0.0": {
@@ -41,7 +33,7 @@
     }
   },
   "libraries": {
-    "ConsoleApp/1.0.0": {
+    "BL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -52,11 +44,6 @@
       "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "path": "newtonsoft.json/13.0.1",
       "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
-    },
-    "BL/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "DAL/1.0.0": {
       "type": "project",
