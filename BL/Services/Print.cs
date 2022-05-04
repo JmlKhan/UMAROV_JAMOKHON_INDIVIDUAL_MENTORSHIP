@@ -8,10 +8,10 @@ namespace BL.Services
 {
     public class Print
     {
-        public void Response(string cityName)
+        public async Task Response(string cityName)
         {
             var validateCity = new Validate();
-            var temp = Convert.ToDouble(validateCity.CheckCity(cityName));
+            var temp = Convert.ToDouble(await validateCity.CheckCity(cityName));
 
             var celcius = temp - 273.15;
             string comment;

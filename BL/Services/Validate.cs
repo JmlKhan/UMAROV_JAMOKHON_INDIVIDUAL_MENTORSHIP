@@ -11,10 +11,10 @@ namespace BL.Services
     {
         public async Task<string> CheckCity(string cityName)
         {
-            if (cityName.Length == 0)
-            {
-                return "enter city name";
-            }
+            //if (cityName.Length == 0)
+            //{
+            //    return "enter city name";
+            //}
             var weatherObject = new WeatherApi();
             var result = await weatherObject.GetWeatherAsync(cityName);
 

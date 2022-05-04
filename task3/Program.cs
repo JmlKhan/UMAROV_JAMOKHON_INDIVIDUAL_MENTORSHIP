@@ -5,5 +5,14 @@ string cityName;
 Console.WriteLine("Enter city name: \n");
 cityName = Console.ReadLine();
 
-var result = new Print();
-result.Response(cityName);
+if (cityName.Length == 0)
+{
+    Console.WriteLine("enter city name");
+}
+else
+{
+    var result = new Print();
+    await result.Response(cityName);
+}
+
+
