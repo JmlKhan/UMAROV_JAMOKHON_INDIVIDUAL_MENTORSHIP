@@ -9,17 +9,18 @@ namespace BL.Services
 {
     public class Validate
     {
-        public string CheckCity(string cityName)
+        public async Task<string> CheckCity(string cityName)
         {
-            var weatherObject = new WeatherApi();
-            var result = weatherObject.GetWeather(cityName);
-
-            if(cityName.Length == 0)
+            if (cityName.Length == 0)
             {
                 return "enter city name";
             }
-            
-            return result.list[0]!.main!.temp.ToString();
+            var weatherObject = new WeatherApi();
+            var result = await weatherObject.GetWeatherAsync(cityName);
+
+           
+
+            return result!.list[0]!.main!.temp.ToString();
         }
     }
 }
