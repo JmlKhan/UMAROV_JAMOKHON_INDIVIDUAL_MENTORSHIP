@@ -1,5 +1,8 @@
 ﻿using BL.Services;
 
+
+
+
 string cityName;
 
 Console.WriteLine("Enter city name: \n");
@@ -15,4 +18,6 @@ else
     await result.Response(cityName);
 }
 
+var ts = new TimeSpan(4, 30, 0);
+Console.WriteLine(ts.Subtract(new TimeSpan(0,15,0)));
 
